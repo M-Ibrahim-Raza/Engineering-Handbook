@@ -47,7 +47,7 @@ To set it up by hand instead, create these two files and commit them.
 `.claude/handbook.json`: the handbook files this project uses. The names are the file names in `best-practices/` and `guides/`, without `.md`.
 
 ```json
-{ "files": ["typescript", "react", "nextjs", "tailwind", "shadcn", "zod", "prisma", "postgresql", "testing", "git", "design-patterns"] }
+{ "files": ["typescript", "react", "nextjs", "tailwind", "shadcn", "ui-ux", "zod", "prisma", "postgresql", "testing", "git", "design-patterns"] }
 ```
 
 `.claude/settings.json`: when teammates open the project and trust the folder, Claude Code offers them the plugin. Merge these keys into the file if it already exists:

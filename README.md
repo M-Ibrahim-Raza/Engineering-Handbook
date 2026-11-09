@@ -31,6 +31,7 @@ scripts/           handbook.py: prints routes, sections and checklists for the c
 | [nextjs.md](best-practices/nextjs.md) | Next.js App Router: rendering, caching, data fetching, Server Actions, security. |
 | [tailwind.md](best-practices/tailwind.md) | Tailwind CSS v4: tokens, utilities, variants, dark mode, custom CSS. |
 | [shadcn.md](best-practices/shadcn.md) | shadcn/ui: setup, theming, composition, forms, CLI and registries. |
+| [ui-ux.md](best-practices/ui-ux.md) | UI/UX for web apps in any framework: UX principles, keeping feature-rich apps easy (progressive disclosure, command palette), navigation and URL state, layout and typography, mobile and touch, feedback and screen states, forms, errors and undo, tables and filters, onboarding, microcopy, accessibility (WCAG 2.2 AA and the law), motion, performance, AI features, dark patterns, UX research and metrics. |
 | [tanstack-query.md](best-practices/tanstack-query.md) | TanStack Query in the Next.js App Router: query keys, caching, mutations, SSR. |
 | [trpc.md](best-practices/trpc.md) | tRPC served from NestJS (or Next.js) and called from React. |
 | [nestjs.md](best-practices/nestjs.md) | NestJS APIs: modules, validation, errors, security, testing. |

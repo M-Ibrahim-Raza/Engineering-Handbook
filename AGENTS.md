@@ -25,7 +25,7 @@ This index tells you which file to read for a task and how to read the rules.
 | Write or validate a Zod schema | [zod.md](best-practices/zod.md) §2 (where to validate), §7–12 |
 | New Next.js page, layout or route | [nextjs.md](best-practices/nextjs.md) §2–4, §9 · [react.md](best-practices/react.md) §3 |
 | Load data in a Server Component | [nextjs.md](best-practices/nextjs.md) §5–6 · [react.md](best-practices/react.md) §7 |
-| Form, mutation or Server Action | [react.md](best-practices/react.md) §8 · [nextjs.md](best-practices/nextjs.md) §7–8 · UI: [shadcn.md](best-practices/shadcn.md) §8 |
+| Form, mutation or Server Action | [react.md](best-practices/react.md) §8 · [nextjs.md](best-practices/nextjs.md) §7–8 · UI: [shadcn.md](best-practices/shadcn.md) §8 · UX: [ui-ux.md](best-practices/ui-ux.md) §9–10 |
 | React component, state or effect | [react.md](best-practices/react.md) §2–6 |
 | Client-side server state (polling, infinite lists, optimistic updates) | [tanstack-query.md](best-practices/tanstack-query.md): §1 first, to confirm it's needed |
 | tRPC router, procedure or middleware | [trpc.md](best-practices/trpc.md) §4–8 · [nestjs.md](best-practices/nestjs.md) §6, §9 |
@@ -41,6 +41,15 @@ This index tells you which file to read for a task and how to read the rules.
 | Styling and design tokens | [tailwind.md](best-practices/tailwind.md) §2–8. If the project uses shadcn/ui, [shadcn.md](best-practices/shadcn.md) §5–6 first |
 | Add or change a UI component | [shadcn.md](best-practices/shadcn.md) §4, §7, §14 |
 | Dark mode | [shadcn.md](best-practices/shadcn.md) §5 if the project uses shadcn/ui, otherwise [tailwind.md](best-practices/tailwind.md) §7 |
+| Design or review a screen or user flow (layout, navigation, feedback, loading, empty and error states) | [ui-ux.md](best-practices/ui-ux.md) Key rules, §1–8 |
+| Feature-rich screen: progressive disclosure, settings, power-user features (shortcuts, command palette) | [ui-ux.md](best-practices/ui-ux.md) §2, §12 |
+| Form UX, validation messages, confirmations and undo | [ui-ux.md](best-practices/ui-ux.md) §9–10 · building it: [react.md](best-practices/react.md) §8 · [shadcn.md](best-practices/shadcn.md) §8 |
+| Tables, lists, filters, bulk actions or search | [ui-ux.md](best-practices/ui-ux.md) §11–12 · Data Table: [shadcn.md](best-practices/shadcn.md) §12 |
+| Microcopy, error messages, empty states or onboarding | [ui-ux.md](best-practices/ui-ux.md) §8, §13–14 |
+| Accessibility review | [ui-ux.md](best-practices/ui-ux.md) §15 · [react.md](best-practices/react.md) §13 · [tailwind.md](best-practices/tailwind.md) §11 · [shadcn.md](best-practices/shadcn.md) §10 |
+| AI feature UI (chat, generated content, agent actions) | [ui-ux.md](best-practices/ui-ux.md) §18 |
+| Consent, pricing, subscription or cancellation flow | [ui-ux.md](best-practices/ui-ux.md) §19 |
+| Usability testing, UX metrics or product analytics events | [ui-ux.md](best-practices/ui-ux.md) §20 · problem interviews: [feature-engineering.md](guides/feature-engineering.md) §4 |
 | Dates and times | [typescript.md](best-practices/typescript.md) §9 · [trpc.md](best-practices/trpc.md) §9 · database columns: [postgresql.md](best-practices/postgresql.md) §3 · time zones, DST, recurring events or events tied to a place: [timezones.md](best-practices/timezones.md) |
 | SQL query, schema, index or constraint | [postgresql.md](best-practices/postgresql.md) §2–7 |
 | Database migration or backfill | [postgresql.md](best-practices/postgresql.md) §8 |
@@ -93,6 +102,7 @@ When two sources disagree, follow the higher one:
    - trpc.md over tanstack-query.md and nestjs.md
    - graphql.md over tanstack-query.md and nestjs.md
    - nextjs.md over react.md
+   - react.md, nextjs.md, tailwind.md and shadcn.md over ui-ux.md on how to build something in that stack; ui-ux.md stays authoritative on what users see and can do
    - postgresql.md over nestjs.md, python-pydantic.md and typescript.md on database rules
    - sqlalchemy.md over postgresql.md on SQLAlchemy-specific rules (models, sessions, Alembic); postgresql.md stays authoritative on SQL, schema and Postgres itself
    - prisma.md over postgresql.md on Prisma-specific rules (schema, client, migrations); postgresql.md stays authoritative on SQL, schema and Postgres itself

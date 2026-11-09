@@ -433,6 +433,7 @@ def cmd_detect(args, files) -> int:
         ("nextjs", has_js("next")),
         ("tailwind", has_js("tailwindcss", "@tailwindcss/*")),
         ("shadcn", has_file("components.json") or has_js("shadcn")),
+        ("ui-ux", has_js("react", "next", "vue", "svelte", "@angular/core", "solid-js")),
         ("tanstack-query", has_js("@tanstack/react-query")),
         ("trpc", has_js("@trpc/*")),
         ("nestjs", has_js("@nestjs/core", "@nestjs/*")),
